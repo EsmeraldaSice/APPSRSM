@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="APPSRSM.LoginPage"
+             BackgroundImage="Fondo1.jpg">
+    <ContentPage.Content>
+        <StackLayout
+            Padding="20,10">
+            <Image
+                Source="logo.png"
+                WidthRequest="200">
+            </Image>
+            <Label
+                FontAttributes="Bold"
+                FontSize="30"
+                HorizontalOptions="Center"
+                Text="Login"
+                TextColor="White"
+                >
+            </Label>
+            <!--<Label
+                FontAttributes="Bold"
+                FontSize="20"
+                HorizontalOptions="Center"
+                Text="Usuario">
+            </Label>-->
+            <ActivityIndicator>
+
+            </ActivityIndicator>
+            <Entry
+                Placeholder="Ingrese su usuario"
+                PlaceholderColor="White"
+                HorizontalOptions="Center"
+                WidthRequest="250"
+                TextColor="White"
+                >
+            </Entry>
+            <!--<Label
+                FontAttributes="Bold"
+                FontSize="20"
+                HorizontalOptions="Center"
+                Text="Contraseña">
+            </Label>-->
+            <Entry
+                IsPassword="True"
+                Placeholder="Ingrese su Contraseña"
+                PlaceholderColor="White"
+                HorizontalOptions="Center"
+                WidthRequest="250"
+                TextColor="White">
+            </Entry>
+            <ActivityIndicator>
+                
+            </ActivityIndicator>
+            <Button
+                Text="Aceptar"
+                BackgroundColor="Green"
+                TextColor="White"
+                FontSize="25"
+                FontAttributes="Bold"
+                BorderRadius="20"
+                WidthRequest="200">
+               
+            </Button> 
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
