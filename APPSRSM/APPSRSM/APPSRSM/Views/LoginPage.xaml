@@ -78,7 +78,7 @@
                 FontSize="25"
                 FontAttributes="Bold"
                 BorderRadius="20"
-                HeightRequest="40"
+                HeightRequest="50"
                 Margin="50,0">
             </Button>
 
