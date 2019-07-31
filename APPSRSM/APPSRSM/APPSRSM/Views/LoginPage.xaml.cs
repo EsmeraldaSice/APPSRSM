@@ -15,6 +15,11 @@ namespace APPSRSM
 		public LoginPage ()
 		{
 			InitializeComponent ();
-		}
-	}
+        }
+        //void btnAceptar(object sender, EventArgs e)
+        //{
+        //    this.recordar.IsToggled = false;
+        //}
+
+    }
 }

@@ -50,7 +50,8 @@
                 HorizontalOptions="Center"
                 WidthRequest="250"
                 TextColor="White"
-                Text="{Binding clave,Mode=TwoWay}">
+                Text="{Binding clave,Mode=TwoWay}"
+                >
             </Entry>
             
             <StackLayout
@@ -61,8 +62,9 @@
                     TextColor="Aquamarine"
                     HorizontalOptions="FillAndExpand">
                 </Label>
-                <Switch
-                    IsToggled="{Binding recordar,Mode=TwoWay}"
+                    <!--IsToggled="{Binding recordar,Mode=TwoWay}"-->
+                    <Switch
+                    x:Name="recordar"
                     WidthRequest="80"
                     HeightRequest="20"
                     HorizontalOptions="StartAndExpand"
@@ -72,6 +74,8 @@
             </StackLayout>
 
             <Button
+                x:Name="boton"
+                Clicked="btnAceptar"
                 Text="Aceptar"
                 BackgroundColor="Green"
                 TextColor="White"

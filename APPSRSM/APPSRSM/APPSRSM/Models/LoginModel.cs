@@ -20,16 +20,16 @@ namespace APPSRSM.Models
         { get;
             set;
         }
-        public bool recordar
-        { get;
-            set;
-        }
+        //public bool recordar
+        //{ get;
+        //    set;
+        //}
         #endregion
         #region Constructor
-        public LoginModel()
-        {
-            this.recordar = true;
-        }
+        //public LoginModel()
+        //{
+        //    this.recordar = true;
+        //}
         #endregion
     }
     #endregion
